@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'l5-rating-bar';
+  onRateChange(value: any): void {
+    console.log(value);
+  }
 }
